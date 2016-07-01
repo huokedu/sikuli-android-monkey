@@ -45,21 +45,21 @@
             <groupId>com.android</groupId>
             <artifactId>chimpchat</artifactId>
             <version>1.0</version>
-            <!--<systemPath>${project.basedir}/lib/com/android/chimpchat/1.0/chimpchat-1.0.jar</systemPath>-->
+            <optional>true</optional>
         </dependency>
 
         <dependency>
             <groupId>com.android</groupId>
             <artifactId>common</artifactId>
             <version>1.0</version>
-            <!--<systemPath>${project.basedir}/lib/com/android/common/1.0/common-1.0.jar</systemPath>-->
+            <optional>true</optional>
         </dependency>
 
         <dependency>
             <groupId>com.android</groupId>
             <artifactId>ddmlib</artifactId>
             <version>1.0</version>
-            <!--<systemPath>${project.basedir}/lib/com/android/ddmlib/1.0/ddmlib-1.0.jar</systemPath>-->
+            <optional>true</optional>
         </dependency>
     </dependencies>
 
@@ -108,7 +108,7 @@
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
-            <url>file://${project.basedir}/lib</url>
+            <url>file:///${project.basedir}/lib</url>
         </repository>
     </repositories>
 </project>
